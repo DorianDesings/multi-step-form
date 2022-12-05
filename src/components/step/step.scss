@@ -1,0 +1,43 @@
+.step {
+	display: flex;
+	align-items: center;
+	height: 50px;
+	margin-bottom: 2rem;
+	color: #fff;
+	cursor: pointer;
+
+	&__number {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 33px;
+		height: 33px;
+		margin-right: 1rem;
+		border-radius: 50%;
+		border: 1px solid #bee2fd;
+		font-size: 14px;
+		font-weight: 700;
+		color: #fff;
+
+		&--active {
+			background-color: #bee2fd;
+			color: #000;
+		}
+	}
+
+	&__info {
+		width: 5.5rem;
+		height: 2rem;
+	}
+
+	&__order {
+		margin: 0;
+		color: #abbcff;
+	}
+
+	&__title {
+		margin: 0;
+		font-size: 14px;
+		font-weight: 700;
+	}
+}

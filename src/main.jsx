@@ -1,7 +1,8 @@
 import { createRoot } from 'react-dom/client';
-import './index.css';
+import App from './App';
+import './index.scss';
+import './scss/config/variables.scss';
 
-const app = <img src='/logo.svg' />;
 const container = document.getElementById('root');
 
-createRoot(container).render(app);
+createRoot(container).render(<App />);
